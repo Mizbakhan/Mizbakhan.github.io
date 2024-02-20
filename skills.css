@@ -1,0 +1,36 @@
+body {
+    background-image: url('path/to/image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .skill-item:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  .skill-item {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    main {
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .skill-item {
+      padding: 0.5rem;
+    }
+  }
