@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="smoke.css">
+    <script src="script.js"></script>
+    <title>portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://img.freepik.com/premium-vector/vector-cartoon-hijab-woman-with-plain-face-calm-pose_500021-689.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center
+            height: 10%;
+            overflow: hidden;
+            margin-bottom: 10px;
+           display: inline;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 3em;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #e1e1e3;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Open Sans', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+        justify-content: space-between;
+        align-items: center;
+            padding: 1rem;
+        
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 2em;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fff9f9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-family: 'Lucida Calligraphy';
+        }
+        
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        header .header-title {
+            flex-grow: 1;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav {
+            flex-grow: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 1rem;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            bottom: 70px
+            
+            
+ 
+        }
+
+        main section {
+            margin-bottom: 2rem;
+        }
+
+        main h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            margin: 0;
+        }
+
+        .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3d3d3d; /* Set a background color for the footer */
+  color: #f3f2f2; /* Set a text color for the footer */
+  padding: 20px; /* Set some padding for the footer */
+  text-align: center; /* Center the text in the footer */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+        justify-content: space-between;
+        align-items: center;
+            padding: 1rem;
+}
+
+.footer p {
+  margin-bottom: 10px; /* Add some spacing between the copyright notice and the links */
+}
+
+.footer ul {
+  list-style-type: none; /* Remove the bullet points from the links list */
+  margin: 0; /* Remove any margin from the links list */
+  padding: 0; /* Remove any padding from the links list */
+}
+
+.footer li {
+  display: inline-block; /* Display the links list items horizontally */
+  margin-right: 10px; /* Add some spacing between the links */
+}
+
+.footer a {
+  color: #fff; /* Set the text color for the links */
+  text-decoration: none; /* Remove any underline from the links */
+}
+.left-content {
+  /* Add some top margin to ensure the main content is not covered by the footer */
+  margin-bottom: 80px;
+  /* Your other styles here */
+}
+
+
+    </style>
+    
+</head>
+<body>
+    <header>
+
+        <div class="box">
+        <div class="header-title">
+            <h2>Mizba Khan M</h2>
+        </div>
+       </div>
+        <nav>
+            <ul>
+                <li id="home" onclick="openHome()">HOME</li>
+                <li><a href="about.html" id="about">ABOUT</a></li>
+                <li><a href="contacts.html" id="contacts">CONTACTS</a></li>
+                <li id="education" onclick="openEducation()">EDUCATION</li>
+                <li id="projects" onclick="openProjects()">PROJECTS</li>
+                <li id="skills" onclick="openSkills()">SKILLS</li>
+                <li id="certifications" onclick="openCertifications()">CERTIFICATIONS</li>
+                
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section1">
+        <div class="video-container">
+          <video class="video" src="smoke.mp4" autoplay muted></video>
+          <h4 class="overlay-text">
+            <span>M</span>
+            <span>I</span>
+            <span>Z</span>
+            <span>B</span>
+            <span>A</span>
+            <span> </span>
+            <span>K</span>
+            <span>H</span>
+            <span>A</span>
+            <span>N</span>
+            <span> </span>
+            <span>M</span>
+          </h4>
+        </div>
+      </section>
+    
+ 
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contacts </a></li>
+            </ul>
+          </footer>
+        </body>
+       
+    </main>
